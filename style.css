@@ -13,41 +13,8 @@ body {
 #root {
   width: 500px;
 }
-.dark-theme {
-  background-color: #0d0a0abb;
-  color: aliceblue;
-}
 .btn-btn {
   padding: 10px 5px;
   border: 1px solid black;
   border-radius: 5px;
-}
-.tabs {
-  overflow: hidden;
-  border: 1px solid white;
-  background-color: antiquewhite;
-  display: flex;
-}
-.tabs button {
-  background-color: inherit;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  translate: 0.3s;
-}
-.tabs button:hover {
-  background-color: bisque;
-}
-.tabs button.active {
-  background-color: aqua;
-}
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid white;
-  border-top: none;
-}
-.tabcontent.active {
-  display: block;
 }
